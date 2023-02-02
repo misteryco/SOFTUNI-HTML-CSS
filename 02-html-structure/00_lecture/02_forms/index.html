@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>FORMS</h1>
+    <form method="get" action="./result.html">
+      <fieldset>
+        <div>
+          <label for="name">username</label>
+          <input id="name" type="text" placeholder="enter your name"/>
+        </div>
+
+        <div>
+          <label for="pass">password</label>
+          <input id="pass" type="password" placeholder="enter your password here"/>
+        </div>
+
+        <div>
+            <label for="some"></label>
+            <input id="some" type="text" placeholder="an disabled field" disabled/>
+          </div>
+
+      </fieldset>
+
+      <fieldset>
+        <h2>Select car brand</h2>
+
+        <label for="volvo">Volvo</label>
+        <input id="volvo" type="checkbox" value="VOLVO" name="brand" />
+
+        <label for="bmw">Bmw</label>
+        <input id="bmw" type="checkbox" value="VOLVO" name="brand" />
+
+        <label for="audi">Audi</label>
+        <input id="audi" type="checkbox" value="AUDI" name="brand" />
+      </fieldset>
+
+      <fieldset>
+        <h2>Select locatio</h2>
+
+        <label for="de">Volvo</label>
+        <input id="de" type="radio" name="location" value="de" />
+
+        <label for="bg">Bmw</label>
+        <input id="bg" type="radio" name="location" value="bg" />
+
+        <label for="fr">Audi</label>
+        <input id="fr" type="radio" name="location" value="fr" />
+      </fieldset>
+      <br />
+      <button>Submit</button>
+      <button type="reset">Reset</button>
+      <button type="button">Normal</button>
+    </form>
+
+    <h2>Outside</h2>
+
+    <p>buttons outside the form act differently</p>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button">Normal</button>
+
+    <input type="submit">
+
+  </body>
+</html>
